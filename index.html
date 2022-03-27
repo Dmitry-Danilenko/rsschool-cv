@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remove.css">
+    
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about__me">About me</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#english">English</a></li>
+                    <li class="nav-item"><a href="#code__example">Code example</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div> 
+        </header>
+        <main> 
+            <div class="main__content">
+                <section class="name">
+                    <img src="img/uh_yEpBPjLs.jpg" alt="Photo">
+                    <h1>Dmitry Danilenko</h1>
+                    <h2>Junior front-end developer</h2>
+                </section>
+                <section id="about__me">
+                    <div class="header__main">About me</div>
+                    <div class="main__text">
+                        <p> After graduating  Belarusin-Russian University, I was invited to work as a highway design engineer where I am working on the creation of new streets and roads in my country.</p>
+                        <p> But I prefer the job of a web programmer more because you can bring your craziest ideas into reality from anywhere in the world. I hope to learn this professoin in the future with help RS school.</p>
+                    </div>
+                </section>
+                <section class="education" id="education">
+                    <div class="header__main">Education</div>
+                    <div class="main__text">
+                        <h3>University:</h3>
+                                <p>Belarusin-Russian University, higway engineer</p>  
+                        <h3 class="courses">Courses:</h3>
+                        <div class="courses">
+                            <a  target="_blank" href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+                            <a target="_blank" href="https://htmlacademy.ru/">HTML Academy</a>
+                            <a target="_blank" href="https://www.udemy.com/course/javascript_full/">Udemy</a>
+                            <a target="_blank" href="https://str.by/">Streamline(English courses)</a>
+                        </div>
+                        </div>
+                </section>        
+                <section class="contacts" id="contacts">
+                    <div class="header__main">contacts</div>
+                    <div class="main__text">
+                        <ul>
+                            <li><b>Location:</b> Mogilev,Belarus</li>
+                            <li><b>Phone:</b> 8033-362-97-21</li>
+                            <li><b>Email:</b> danilenkodima1998@mail.ru</li>
+                            <li><b>GitHub:</b> <a target="_blank" href="https://github.com/Dmitry-Danilenko"> Dmitry-Danilenko</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="skills" id="skills">
+                    <div class="header__main">Skills</div>
+                    <div class="main__text">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git, GitHub</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="code__example wb" id="code__example">
+                    <div class="header__main">Code example</div>
+                    <div class="main__text">
+                        <pre class="pre">
+                            <code>
+function isDivideBy(number, a, b) {
+if (number%a  == 0 && number%b  == 0){
+  return true;
+}else {
+  return false;
+}
+  }
+</code>
+                        </pre>
+                    </div>
+                </section> 
+                <section class="english wb" id="english">
+                    <div class="header__main">English</div>
+                    <div class="main__text">A2+</div>
+                </section>
+                
+            </div>
+        </main>
+            <footer class="footer">
+            <a class="footer__text" target="_blank" href="https://github.com/Dmitry-Danilenko">My GitHub</a>
+            <p>2022</p>
+            <a href="https://rs.school/js/" target="_blank">
+                <img class="footer__img" src="img/rs_school_js.svg" alt="">
+            </a>
+        </footer>
+        
+    </div>
+</body>
+<script src="./index.js"></script>  
+</html>
